@@ -20,6 +20,7 @@ function App() {
             <SocialLinks></SocialLinks>
             <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX PODCAST</div>
             <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >DUB TECHNO DEEP HOUSE</div>
+            
           
             <LatestMix title="brett" genre="Dub Techno" scLink="https://soundcloud.com/jeva126/tracks" isDayTime={isDayTime}></LatestMix>
 
