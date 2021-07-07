@@ -1,38 +1,184 @@
 .App {
   text-align: center;
+  overflow: scroll;
+  background: rgb(255, 255, 255);
+}
+.App-dark {
+  text-align: center;
+  overflow: scroll;
+  background: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App-title-dark{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-subtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.App-subtitle-dark{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-latest {
+  height: 50vmin;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+  
+  animation: wiggle  2s linear infinite ;
+}
+
+.App-latest:hover {
+  opacity: 0.8;
+  transition: opacity .2s ease-out;
+}
+
+
+.App-archive-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: black;
+}
+.App-archive-title-dark{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: white;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateX(-7px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateX(7px);
+  }
+  100% {
+    transform: translateX(-7px);
   }
 }
+
+/* ------------------------------------------------------------------------  */
+
+.Social-container {
+  display: flex;
+  flex-direction: column;
+ 
+  position: fixed;
+  top: 5%;
+  right: 2%;
+
+  height: 13vh;
+  width: auto;
+  padding: 0.5%;
+}
+
+.Social-row {
+  width: auto;
+  height: auto;
+  text-align: left;
+  padding-left: 5% ;
+
+}
+
+.Social-row:hover {
+  opacity: 0.5;
+  transition: opacity .2s ease-out;
+}
+
+/* ------------------------------------------------------------------------  */
+
+.MixArticle-container {
+  width: fit-content;
+  margin: 5vh auto;
+  height: fit-content;
+}
+
+.MixArticle-photo {
+  height: 50vmin;
+  margin-top: 1vh;
+}
+
+.MixArticle-photo:hover {
+  opacity: 0.8;
+  transition: opacity .2s ease-out;
+}
+
+.MixArticle-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.MixArticle-title-dark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.MixArticle-genre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+.MixArticle-genre-dark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: white;
+}
+
+.MixArticle-date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------  */
+
+.Latest-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10vh;
+  color: black;
+}
+.Latest-title-dark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10vh;
+  color: white;
+}
+
+.Latest-genre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: black;
+}
+.Latest-genre-dark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: white;
+}
+
