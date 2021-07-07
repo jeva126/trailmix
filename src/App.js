@@ -4,13 +4,13 @@ import SocialLinks from './Components/SocialLinks';
 import MixArticle from './Components/MixArticle';
 import LatestMix from './Components/LatestMix';
 
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
 
   const hours = new Date().getHours()
-  // const isDayTime = hours > 6 && hours < 20
-  const isDayTime = 0;
+  const isDayTime = hours > 6 && hours < 20
+  //const isDayTime = 0;
   
 
   return (
