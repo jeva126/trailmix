@@ -85,11 +85,11 @@
   display: inline-block;
   flex-direction: column;
  
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 5%;
 
-  height: 100%;
+  height:auto ;
   width: auto;
   padding: 0.5%;
 
