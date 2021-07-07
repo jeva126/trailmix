@@ -11,26 +11,26 @@
 
 .App-title{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 7vw;
+  font-size: 7vh;
   font-weight: bold;
   color: black;
 }
 .App-title-dark{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 7vw;
+  font-size: 7vh;
   font-weight: bold;
   color: white;
 }
 
 .App-subtitle{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vw;
+  font-size: 3vh;
   font-weight: bold;
-  color: black;
+  color: black; 
 }
 .App-subtitle-dark{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vw;
+  font-size: 3vh;
   font-weight: bold;
   color: white;
 }
@@ -52,7 +52,7 @@
 
 .App-archive-title{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vw;
+  font-size: 3vh;
   font-weight: bold;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -60,7 +60,7 @@
 }
 .App-archive-title-dark{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vw;
+  font-size: 3vh;
   font-weight: bold;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -82,16 +82,17 @@
 /* ------------------------------------------------------------------------  */
 
 .Social-container {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
  
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 5%;
 
-  height: 13vh;
+  height: 100%;
   width: auto;
   padding: 0.5%;
+
 }
 
 .Social-row {
@@ -127,45 +128,45 @@
 
 .MixArticle-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 2.5vh;
   font-weight: bold;
   color: black;
 }
 .MixArticle-title-dark {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 2.5vh;
   font-weight: bold;
   color: white;
 }
 
 .MixArticle-genre {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 2vh;
 }
 .MixArticle-genre-dark {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 2vh;
   color: white;
 }
 
 .MixArticle-date {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
-  font-size: 18px;
+  font-size: 1.9vh;
 }
 
 /* ------------------------------------------------------------------------  */
 
 .Latest-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 2.5vh;
   font-weight: bold;
   margin-top: 10vh;
   color: black;
 }
 .Latest-title-dark {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 2.5vh;
   font-weight: bold;
   margin-top: 10vh;
   color: white;
@@ -173,12 +174,12 @@
 
 .Latest-genre {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 2vh;
   color: black;
 }
 .Latest-genre-dark {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 2vh;
   color: white;
 }
 
