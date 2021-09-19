@@ -8,11 +8,11 @@ export default function SocialLinks(){
             <div className="Social-row"> 
                 <a href="https://www.instagram.com/jordyevanz/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/instagram.svg'} alt={'insta'} height="30vh" /> </a>
             </div>
-            <div className="Social-row"> 
+            {/* <div className="Social-row"> 
                 <img src={process.env.PUBLIC_URL + '/Images/youtube.svg'} alt={'youtube'} height="30vh" />
-            </div>
+            </div> */}
             <div className="Social-row"> 
-               <a href="https://soundcloud.com/jeva126/tracks" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/soundcloud.svg'} alt={'soundcloud'} height="30vh" /></a> 
+               <a href="https://soundcloud.com/jeva126/tracks" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/soundcloud.svg'} alt={'soundcloud'} height="35vh" /></a> 
             </div>
             <div className="Social-row">
                 <img src={process.env.PUBLIC_URL + '/Images/gmail.svg'} alt={'gmail'} height="30vh" onClick={() => navigator.clipboard.writeText("trailmix@gmail.com")}></img> 
