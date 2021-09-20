@@ -2,6 +2,8 @@ import '../App.css';
 
 
 export default function SocialLinks(){
+    
+   
 
     return(
         <div className="Social-container">
@@ -15,7 +17,8 @@ export default function SocialLinks(){
                <a href="https://soundcloud.com/jeva126/tracks" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/soundcloud.svg'} alt={'soundcloud'} height="35vh" /></a> 
             </div>
             <div className="Social-row">
-                <img src={process.env.PUBLIC_URL + '/Images/gmail.svg'} alt={'gmail'} height="30vh" onClick={() => navigator.clipboard.writeText("trailmix@gmail.com")}></img> 
+                <img src={process.env.PUBLIC_URL + '/Images/gmail.svg'} alt={'gmail'} height="30vh" onClick={() => {navigator.clipboard.writeText("hello.trailmix@gmail.com"); }}></img> 
+               
             </div>
         </div>
     )
