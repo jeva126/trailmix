@@ -5,10 +5,14 @@ import LatestMix from './Components/LatestMix';
 
 import { BrowserRouter as Router} from 'react-router-dom'
 
+import ReactGA from 'react-ga';
+
 function App() {
 
-  const hours = new Date().getHours()
-  const isDayTime = hours > 7 && hours < 17
+  const hours = new Date().getHours();
+  const isDayTime = hours > 7 && hours < 17;
+
+  ReactGA.pageview(window.location.pathname);
 
   return (
     <Router>
