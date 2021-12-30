@@ -19,17 +19,17 @@ function App() {
          <div className={isDayTime ? "App" : "App-dark"}>
 
            
-            <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX</div>
+            <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX SERIES</div>
             <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >DUB TECHNO DEEP HOUSE</div>
             <SocialLinks></SocialLinks> 
           
-            <LatestMix title="LOCK DUB DOWN" genre="Dub Techno / Deep House" scLink="https://soundcloud.com/jeva126/lock-dub-down" isDayTime={isDayTime}></LatestMix>
+            <LatestMix title="December" genre="Dub Techno / Deep House" scLink="https://soundcloud.com/jeva126/trailmix-series-004-december?si=e913d45ef59e493ca86578356cef6b2f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" isDayTime={isDayTime}></LatestMix>
             
             <div className={isDayTime ? "App-archive-title" : "App-archive-title-dark"}>ARCHIVE</div>   
             
-            <MixArticle title="Salomon_xa_pro_1" genre="Dub Techno / Deep House" date="19_08_2021" scLink={"https://soundcloud.com/jeva126/salomon_xa_pro_1/s-xRLoHlmzn95"} isDayTime={isDayTime}></MixArticle>   
-            <MixArticle title="Deep 21 Mix" genre="Dub Techno" date="30_07_2020" scLink={"https://soundcloud.com/jeva126/jeva-deep-21-mix"} isDayTime={isDayTime}></MixArticle>   
-            <MixArticle title="ayest" genre="Minimal" date="10_07_2020" scLink={"https://soundcloud.com/jeva126/jeva-grey-lynn-sound-volume-1"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="LOCK DUB DOWN" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jeva126/lock-dub-down"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="Deep 21 Mix" genre="Dub Techno" date="30-07-2020" scLink={"https://soundcloud.com/jeva126/jeva-deep-21-mix"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="ayest" genre="Minimal" date="10-07-2020" scLink={"https://soundcloud.com/jeva126/jeva-grey-lynn-sound-volume-1"} isDayTime={isDayTime}></MixArticle>   
 
           </div>
 
