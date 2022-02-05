@@ -23,13 +23,13 @@ function App() {
             <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >DUB TECHNO DEEP HOUSE</div>
             <SocialLinks></SocialLinks> 
           
-            <LatestMix title="December" genre="Dub Techno / Deep House" scLink="https://soundcloud.com/jeva126/trailmix-series-004-december?si=e913d45ef59e493ca86578356cef6b2f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" isDayTime={isDayTime}></LatestMix>
+            <LatestMix title="December" genre="Dub Techno / Deep House" scLink="https://soundcloud.com/jordyevanz/trailmix-series-004-december" isDayTime={isDayTime}></LatestMix>
             
             <div className={isDayTime ? "App-archive-title" : "App-archive-title-dark"}>ARCHIVE</div>   
             
-            <MixArticle title="LOCK DUB DOWN" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jeva126/lock-dub-down"} isDayTime={isDayTime}></MixArticle>   
-            <MixArticle title="Deep 21 Mix" genre="Dub Techno" date="30-07-2020" scLink={"https://soundcloud.com/jeva126/jeva-deep-21-mix"} isDayTime={isDayTime}></MixArticle>   
-            <MixArticle title="ayest" genre="Minimal" date="10-07-2020" scLink={"https://soundcloud.com/jeva126/jeva-grey-lynn-sound-volume-1"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="LOCK DUB DOWN" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jordyevanz/lock-dub-down"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="Deep 21 Mix" genre="Dub Techno" date="30-07-2020" scLink={"https://soundcloud.com/jordyevanz/jeva-deep-21-mix"} isDayTime={isDayTime}></MixArticle>   
+            <MixArticle title="ayest" genre="Minimal" date="10-07-2020" scLink={"https://soundcloud.com/jordyevanz/ayest"} isDayTime={isDayTime}></MixArticle>   
 
           </div>
 
