@@ -8,7 +8,7 @@ export default function SocialLinks(){
     return(
         <div className="Social-container">
             <div className="Social-row"> 
-                <a href="https://www.instagram.com/jordyevanz/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/instagram.svg'} alt={'insta'} height="30vh" /> </a>
+                <a href="https://www.instagram.com/jordyevanz/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + '/Images/instagram.svg'} alt={'insta'} height="40vh" /> </a>
             </div>
             {/* <div className="Social-row"> 
                 <img src={process.env.PUBLIC_URL + '/Images/youtube.svg'} alt={'youtube'} height="30vh" />
