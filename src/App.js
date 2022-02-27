@@ -8,9 +8,7 @@ import { BrowserRouter as Router} from 'react-router-dom'
 import ReactGA from 'react-ga';
 
 function App() {
-
-  const hours = new Date().getHours();
-  const isDayTime = hours > 7 && hours < 17;
+  const isDayTime = !window.matchMedia('(prefers-color-scheme: dark)').matches;
 
   ReactGA.pageview(window.location.pathname);
 
