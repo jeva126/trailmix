@@ -20,14 +20,15 @@ function App() {
 
            
             <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX SERIES</div>
-            <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Dub Techno and Deep House selections from Jordy Evanz</div>
-            <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Analog imagery from New Zealand</div>
+            <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Dub Techno Deep Tech and Minimal selections from Jordy Evanz and friends</div>
+            
             <SocialLinks></SocialLinks> 
           
             
-            <LatestMix title="TRAILMIX 005 - GUEST MIX: ENERCUBE" imageName="enercube_cover_text_final" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jordyevanz/trailmix-005-guest-mix-enercube?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} isDayTime={isDayTime}></LatestMix>    
+            <LatestMix title="TRAILMIX 006: JORDY EVANZ" imageName="fern" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jordyevanz/trailmix-006-jordy-evanz?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} isDayTime={isDayTime}></LatestMix>    
             <div className={isDayTime ? "App-archive-title" : "App-archive-title-dark"}>ARCHIVE</div>   
             
+            <MixArticle title="TRAILMIX 005 - GUEST MIX: ENERCUBE" imageName="enercube_cover_text_final" genre="Dub Techno / Deep House" scLink={"https://soundcloud.com/jordyevanz/trailmix-005-guest-mix-enercube?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} isDayTime={isDayTime}></MixArticle>
             <MixArticle title="PIRANHA SIBERIA: DUBBISM #023 - Jordy Evanz" imageName="Piranha" genre="Dub Techno / Deep House" scLink={"https://soundcloud.com/piranha-siberia/dubbism-023-jordyevanz?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} isDayTime={isDayTime}></MixArticle>
             <MixArticle title="December" genre="Dub Techno / Deep House" imageName="December" scLink="https://soundcloud.com/jordyevanz/trailmix-series-004-december" isDayTime={isDayTime}></MixArticle>
             <MixArticle title="LOCK DUB DOWN" genre="Dub Techno / Deep House" imageName="LOCK DUB DOWN" date="19-08-2021" scLink={"https://soundcloud.com/jordyevanz/lock-dub-down"} isDayTime={isDayTime}></MixArticle>   
