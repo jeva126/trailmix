@@ -20,7 +20,7 @@ function App() {
 
            
             <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX SERIES</div>
-            <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Dub Techno Deep Tech and Minimal selections from Jordy Evanz and friends</div>
+            <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Dub Techno Deep Tech and Minimal selections</div>
             
             <SocialLinks></SocialLinks> 
           
