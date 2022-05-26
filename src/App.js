@@ -19,12 +19,15 @@ function App() {
          <div className={isDayTime ? "App" : "App-dark"}>
 
            
-            <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX SERIES</div>
+            {/* <div className={isDayTime ? "App-title" : "App-title-dark"} >TRAILMIX SERIES</div> */}
+
+            
 
             <img className="MixArticle-photo" src={process.env.PUBLIC_URL + '/Images/tm_pic.jpg'} alt={"tm"} /> 
             {/* <div className={isDayTime ? "App-subtitle" : "App-subtitle-dark"} >Dub Techno Deep Tech and Minimal selections</div> */}
             
-            <SocialLinks></SocialLinks> 
+            <SocialLinks></SocialLinks>
+             
           
             
             <LatestMix title="TRAILMIX 006: JORDY EVANZ" imageName="fern" genre="Dub Techno / Deep House" date="19-08-2021" scLink={"https://soundcloud.com/jordyevanz/trailmix-006-jordy-evanz?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} isDayTime={isDayTime}></LatestMix>    
