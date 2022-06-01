@@ -30,17 +30,23 @@ function App() {
              
           
             
-            <LatestMix title="TRAILMIX 007: X_FR" 
-                      imageName="x_FR_COVER" 
-                      genre="Dub Techno / Deep House" 
-                      date="29-05-22" 
-                      scLink={"https://soundcloud.com/jordyevanz/trailmix-007-guest-mix-x_fr?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} 
+            <LatestMix title="TRAILMIX 008: jordyEvanz b2b Pierre DV" 
+                      imageName="2hrstepperwide" 
+                      genre="Minimal" 
+                      date="01-06-22" 
+                      scLink={" https://soundcloud.com/jordyevanz/trailmix-008-jordyevanz-b2b-pierre-dv?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} 
                       isDayTime={isDayTime}>         
             </LatestMix> 
 
             <div className={isDayTime ? "App-archive-title" : "App-archive-title-dark"}>ARCHIVE</div>   
             
 
+            <MixArticle title="TRAILMIX 007: X_FR" 
+                      imageName="x_FR_COVER" 
+                      genre="Dub Techno / Deep House" 
+                      scLink={"https://soundcloud.com/jordyevanz/trailmix-007-guest-mix-x_fr?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} 
+                      isDayTime={isDayTime}>         
+            </MixArticle> 
             <MixArticle title="TRAILMIX 006: JORDY EVANZ" 
                         imageName="fern" 
                         genre="Dub Techno / Deep House" 
