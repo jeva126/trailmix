@@ -80,7 +80,7 @@
   width: fit-content;
 }
 
-@keyframes wiggle {
+/* @keyframes wiggle {
   0% {
     transform: translateX(-7px);
   }
@@ -90,7 +90,7 @@
   100% {
     transform: translateX(-7px);
   }
-}
+} */
 
 /* ------------------------------------------------------------------------  */
 
