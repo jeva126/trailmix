@@ -1,7 +1,7 @@
 import './App.css';
 import SocialLinks from './Components/SocialLinks';
 import MixArticle from './Components/MixArticle';
-import LatestMix from './Components/LatestMix';
+
 
 import { BrowserRouter as Router} from 'react-router-dom'
 
