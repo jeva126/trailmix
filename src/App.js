@@ -34,13 +34,19 @@ function App() {
              
           <div className="content">
 
-            <LatestMix title="TRAILMIX 009: jordyEvanz Dub Set" 
+          <MixArticle title="July" 
+                        imageName="julyhayy" 
+                        genre="dub" 
+                        scLink={"https://soundcloud.com/jordyevanz/july"} 
+                        isDayTime={isDayTime}>         
+              </MixArticle> 
+
+            <MixArticle title="TRAILMIX 009: jordyEvanz Dub Set" 
                         imageName="dubset" 
                         genre="dub" 
-                        date="14-06-22" 
                         scLink={"https://soundcloud.com/jordyevanz/trailmix-009-jordyevanz-dub-set"} 
                         isDayTime={isDayTime}>         
-              </LatestMix> 
+              </MixArticle> 
 
               {/* <div className={isDayTime ? "App-archive-title" : "App-archive-title-dark"}>ARCHIVE</div>    */}
               
