@@ -34,6 +34,13 @@ function App() {
              
           <div className="content">
 
+          <MixArticle title="TRAILMIX 010" 
+                        imageName="trailmix10" 
+                        genre="minimal" 
+                        scLink={"https://soundcloud.com/jordyevanz/trailmix-010?si=cde6f156874240ca9b884126702a6fdd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} 
+                        isDayTime={isDayTime}>         
+              </MixArticle> 
+
           <MixArticle title="July" 
                         imageName="julyhayy" 
                         genre="dub" 
