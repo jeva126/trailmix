@@ -41,12 +41,12 @@ function App() {
                         isDayTime={isDayTime}>         
               </MixArticle> 
 
-          <MixArticle title="July" 
+          {/* <MixArticle title="July" 
                         imageName="julyhayy" 
                         genre="dub" 
                         scLink={"https://soundcloud.com/jordyevanz/july"} 
                         isDayTime={isDayTime}>         
-              </MixArticle> 
+              </MixArticle>  */}
 
             <MixArticle title="TRAILMIX 009: jordyEvanz Dub Set" 
                         imageName="dubset" 
