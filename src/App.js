@@ -38,7 +38,7 @@ function App() {
                         imageName="TM11_COVER_1" 
                         genre="minimal" 
                         scLink={"https://soundcloud.com/jordyevanz/trailmix-011"} 
-                        isDayTime={isDayTime}>         
+                        isDayTime={isDayTime}>          
               </MixArticle> 
 
           <MixArticle title="TRAILMIX 010" 
